@@ -17,4 +17,14 @@ Below given are the endpoints you should use:
 
     ![image](https://github.com/user-attachments/assets/88205301-0ab1-4219-8679-1db7955dfc94)
 
+2. [POST] URL: '/admin/upload':
 
+   You have to send a POST request with your document to upload included in the 'Files'. You also need to add your X-API key to the request as this is an admin-only service.
+   Below is the image from the script you can use for that:
+   ![image](https://github.com/user-attachments/assets/9e9918e9-52fc-4151-ad77-1d4a998e0875)
+
+3. [GET] URL: '/admin/log':
+
+   This endpoint retrieves the logging information. You can simply hit the URL to get the logs. If you want to filter with the start and end dates, you can add them as parameters. Remember you will need your X-API-Key here as well.
+
+   ![image](https://github.com/user-attachments/assets/6b9c1638-5078-4a41-aa20-a18e1e0a7509)
